@@ -22,7 +22,7 @@
 
 遵循 `AGENTS.md` 中的代码规范与模式库。要点：
 
-- **类型注解**: 所有函数必须有类型注解（Python 3.9+ 原生语法 `dict[str, str]`）
+- **类型注解**: 所有函数必须有类型注解（Python 3.10+ 原生语法 `dict[str, str]`）
 - **文档字符串**: Google 风格
 - **路径处理**: `pathlib.Path` 而非字符串拼接
 - **日志记录**: `logging.getLogger(__name__)`

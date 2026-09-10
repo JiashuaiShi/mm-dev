@@ -118,4 +118,4 @@ def test_xxx(tmp_path, monkeypatch):
 
 ## CI 集成
 
-GitHub Actions 在 Python 3.9/3.10/3.11 三个版本上运行测试矩阵，执行 Black、isort、Flake8、MyPy 检查和 pytest，覆盖率上传至 Codecov。
+GitHub Actions 在 Python 3.10/3.11 两个版本上运行测试矩阵，执行 Black、isort、Flake8、MyPy 检查和 pytest，覆盖率上传至 Codecov。

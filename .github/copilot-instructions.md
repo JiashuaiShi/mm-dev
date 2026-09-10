@@ -5,7 +5,7 @@
 
 ## Python 代码生成细节
 
-- **类型注解**: Python 3.9+ 原生语法 `dict[str, str]` / `list[Path]` 而非 `Dict` / `List`
+- **类型注解**: Python 3.10+ 原生语法 `dict[str, str]` / `list[Path]` 而非 `Dict` / `List`
 - **格式化**: Black 88 字符 + isort (profile=black)
 - **文档字符串**: Google 风格
 - **路径**: `pathlib.Path` 而非字符串拼接

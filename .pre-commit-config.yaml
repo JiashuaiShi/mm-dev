@@ -27,7 +27,8 @@ repos:
         args: [--max-line-length=88, --extend-ignore=E203,W503,E501]
 
   # Python类型检查
-  # 注: mypy 2.x 不支持 python_version=3.9，保持 v1.8.0 以兼容项目声明
+  # 注: 原先钉 v1.8.0 是因为 mypy 2.x 不支持 python_version=3.9。项目下限已提到
+  # 3.10，该约束不复存在，可择机升级到新版本 mypy 并同步 [tool.mypy] 配置。
   - repo: https://github.com/pre-commit/mirrors-mypy
     rev: v1.8.0
     hooks:
